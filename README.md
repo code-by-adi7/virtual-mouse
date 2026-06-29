@@ -331,7 +331,7 @@ python prjfnl.py
    System Ready. Press 'P' to PAUSE/RESUME.
    ```
 
-2. A window titled **"AI Mouse by Adi,mithun and saabi"** opens showing your webcam feed in real time.
+2. A window titled **"AI Mouse by Adithya"** opens showing your webcam feed in real time.
 
 3. A **yellow rectangle** appears in the center of the frame — this is the **detection zone**. Move your hand inside this box to control the cursor.
 
@@ -362,7 +362,7 @@ Below is the complete step-by-step flow of what happens every frame:
 │  1. Read frame from webcam                          │
 │  2. Flip frame horizontally (mirror view)           │
 │  3. Check if system is PAUSED                       │
-│     → If paused: show "SYSTEM PAUSED" text, skip   │
+│     → If paused: show "SYSTEM PAUSED" text, skip    │
 │     → If not paused: continue below                 │
 └────────────────────┬────────────────────────────────┘
                      │
@@ -410,15 +410,15 @@ Below is the complete step-by-step flow of what happens every frame:
 │  │     ELSE → left click                        │   │
 │  │                                              │   │
 │  │   IF not pinching:                           │   │
-│  │     IF dist_index < 65 → SNIPER MOVE (slow) │   │
-│  │     ELSE → NORMAL MOVE (fast)               │   │
+│  │     IF dist_index < 65 → SNIPER MOVE (slow)  │   │
+│  │     ELSE → NORMAL MOVE (fast)                │   │
 │  └──────────────────────────────────────────────┘   │
 │                                                     │
 │  ┌──────────────────────────────────────────────┐   │
 │  │ IF index AND middle both up:                 │   │
 │  │   → SCROLL mode                              │   │
-│  │   IF index Y < (frame height/2 - 50) → up   │   │
-│  │   IF index Y > (frame height/2 + 50) → down │   │
+│  │   IF index Y < (frame height/2 - 50) → up    │   │
+│  │   IF index Y > (frame height/2 + 50) → down  │   │
 │  └──────────────────────────────────────────────┘   │
 │                                                     │
 │  ┌──────────────────────────────────────────────┐   │
@@ -430,8 +430,8 @@ Below is the complete step-by-step flow of what happens every frame:
 │  │ IF all 4 fingers up (index,mid,ring,pinky):  │   │
 │  │   → VOLUME CONTROL mode                      │   │
 │  │   Calculate wrist tilt angle                 │   │
-│  │   angle < 50  → Volume Up key               │   │
-│  │   angle > 130 → Volume Down key             │   │
+│  │   angle < 50  → Volume Up key                │   │
+│  │   angle > 130 → Volume Down key              │   │
 │  └──────────────────────────────────────────────┘   │
 └────────────────────┬────────────────────────────────┘
                      │
