@@ -60,7 +60,7 @@ while True:
         cv2.putText(img, "SYSTEM PAUSED", (150, 250), cv2.FONT_HERSHEY_PLAIN, 3, (0, 0, 255), 3)
         cv2.putText(img, "Press 'P' to Resume", (180, 300), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
         
-        cv2.putText(img, "Project by Adithya,Mithun,Sobith", (270, 460), cv2.FONT_HERSHEY_PLAIN, 1.3, (255, 255, 0), 1)
+        cv2.putText(img, "Project by Adithya", (270, 460), cv2.FONT_HERSHEY_PLAIN, 1.3, (255, 255, 0), 1)
     
     else:
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -190,7 +190,7 @@ while True:
         cv2.putText(img, f'FPS: {int(fps)}', (20, 50), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 2)
        
     
-    cv2.imshow("AI Mouse by Adi,mithun and saabi", img)
+    cv2.imshow("AI Mouse by Adithya", img)
     
     
     key = cv2.waitKey(1) & 0xFF
