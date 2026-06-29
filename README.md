@@ -23,7 +23,7 @@
 - [How It Works — Workflow](#-how-it-works--workflow)
 - [Configuration & Sensitivity Tuning](#-configuration--sensitivity-tuning)
 - [Troubleshooting](#-troubleshooting)
-- [Contributors](#-contributors)
+- [Creator](#-creator)
 
 ---
 
@@ -539,7 +539,7 @@ scroll_speed = 20           # Number of scroll units per gesture event
 This project was built by:
 
 
-| **Adithya** | Core development, gesture engine, MediaPipe integration |
+| **Adithya** |
 
 
 ---
