@@ -534,7 +534,7 @@ scroll_speed = 20           # Number of scroll units per gesture event
 
 ---
 
-## 👨‍💻 Contributors
+## 👨‍💻 Creator
 
 This project was built by:
 
